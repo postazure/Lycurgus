@@ -7,11 +7,11 @@ class Repo
 
   attr_reader :name, :owner, :sha
   def initialize(github_json)
-    @content = github_json
-    @api_url = @content['url']
-    @owner = url_highlights[0]
-    @name = url_highlights[1]
-    @sha = url_highlights.last
+    @content  = github_json
+    @api_url  = @content['url']
+    @owner    = url_highlights[0]
+    @name     = url_highlights[1]
+    @sha      = url_highlights.last
   end
 
   def url
@@ -36,11 +36,5 @@ class Repo
         .split('/')
   end
 
-  def get_file_url_at_sha(filename)
-    commit_request_url = "#{API_ROOT}#{owner}/#{name}/commits/#{sha}"
-    commit_response = ApiClient.process_response(url: commit_request_url)
-    gemfile_lock_hash = commit_response['files'].find { |f| f['filename'] == filename }
-    gemfile_lock_hash['raw_url']
-  end
 end
 

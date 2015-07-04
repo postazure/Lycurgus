@@ -1,0 +1,7 @@
+Discover Licenses for Rails Apps
+
+<%= form_tag(dependencies_path, method: 'get') do %>
+    <%= label_tag(:repo_url, 'Github Repo URL:') %>
+    <%= text_field_tag(:repo_url) %>
+    <%= submit_tag('Discover Licenses') %>
+<% end %>

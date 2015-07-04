@@ -6,8 +6,9 @@ class BundlerPM
     self if repo_content['tree'].find {|f| f['path'] == 'Gemfile.lock'}
   end
 
-  def initialize(gemfile_lock_content)
-    @content = gemfile_lock_content
+  def initialize(repo_info)
+    url = get_file_url_at_sha(repo_info)
+    @content = ApiClient.process_response(url: url, json: false)
   end
 
   def current_packages
@@ -17,6 +18,10 @@ class BundlerPM
   end
 
   private
+
+  def get_file_url_at_sha(tree_url)
+    tree_url['url'].gsub('api.github.com/repos', 'raw.githubusercontent.com').gsub('git/trees', 'master').split('/')[0..-2].join('/') + '/Gemfile.lock'
+  end
 
   def get_gem_info
     gem_list = parse_dependencies_chunk
@@ -59,7 +64,9 @@ class BundlerPM
     dep_hash = {name: dep_arr[0], version: dep_arr[1]}
     api_url = "https://rubygems.org/api/v1/versions/#{dep_hash[:name]}.json"
     response = ApiClient.process_response(url: api_url)
+
     matched_response = response.find { |release| release['number'] == dep_hash[:version]}
+
     dep_hash.merge({sha: matched_response['sha'], licenses: matched_response['licenses'], source: api_url})
   end
 

@@ -1,0 +1,346 @@
+[
+  {
+    "sha": "418d41e06005df5e22e35873da1a4baaaa017433",
+    "commit": {
+      "author": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-04T05:20:32Z"
+      },
+      "committer": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-04T05:20:32Z"
+      },
+      "message": "Lycurgus can get detailed gem information\\\n\\\n[Finishes #98379662]",
+      "tree": {
+        "sha": "78f1aeb35bed04ba710ed67a2d084391ffef885a",
+        "url": "https://api.github.com/repos/postazure/Lycurgus/git/trees/78f1aeb35bed04ba710ed67a2d084391ffef885a"
+      },
+      "url": "https://api.github.com/repos/postazure/Lycurgus/git/commits/418d41e06005df5e22e35873da1a4baaaa017433",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/postazure/Lycurgus/commits/418d41e06005df5e22e35873da1a4baaaa017433",
+    "html_url": "https://github.com/postazure/Lycurgus/commit/418d41e06005df5e22e35873da1a4baaaa017433",
+    "comments_url": "https://api.github.com/repos/postazure/Lycurgus/commits/418d41e06005df5e22e35873da1a4baaaa017433/comments",
+    "author": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1dafc20f1a1257f0c22df3b68dc0e5a23d5396ca",
+        "url": "https://api.github.com/repos/postazure/Lycurgus/commits/1dafc20f1a1257f0c22df3b68dc0e5a23d5396ca",
+        "html_url": "https://github.com/postazure/Lycurgus/commit/1dafc20f1a1257f0c22df3b68dc0e5a23d5396ca"
+      }
+    ]
+  },
+  {
+    "sha": "1dafc20f1a1257f0c22df3b68dc0e5a23d5396ca",
+    "commit": {
+      "author": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-04T03:49:05Z"
+      },
+      "committer": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-04T03:49:05Z"
+      },
+      "message": "test coverage for api_client",
+      "tree": {
+        "sha": "8c5f8b9e08a045cae7ad2717064ce3e114a607fa",
+        "url": "https://api.github.com/repos/postazure/Lycurgus/git/trees/8c5f8b9e08a045cae7ad2717064ce3e114a607fa"
+      },
+      "url": "https://api.github.com/repos/postazure/Lycurgus/git/commits/1dafc20f1a1257f0c22df3b68dc0e5a23d5396ca",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/postazure/Lycurgus/commits/1dafc20f1a1257f0c22df3b68dc0e5a23d5396ca",
+    "html_url": "https://github.com/postazure/Lycurgus/commit/1dafc20f1a1257f0c22df3b68dc0e5a23d5396ca",
+    "comments_url": "https://api.github.com/repos/postazure/Lycurgus/commits/1dafc20f1a1257f0c22df3b68dc0e5a23d5396ca/comments",
+    "author": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c95fcd92a9b9ac60953592069aec633b9a864a6d",
+        "url": "https://api.github.com/repos/postazure/Lycurgus/commits/c95fcd92a9b9ac60953592069aec633b9a864a6d",
+        "html_url": "https://github.com/postazure/Lycurgus/commit/c95fcd92a9b9ac60953592069aec633b9a864a6d"
+      }
+    ]
+  },
+  {
+    "sha": "c95fcd92a9b9ac60953592069aec633b9a864a6d",
+    "commit": {
+      "author": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-04T03:22:44Z"
+      },
+      "committer": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-04T03:22:44Z"
+      },
+      "message": "Locate Gemfile.lock for commit sha, create package objects\\\n\\\n[finishes #98372136]",
+      "tree": {
+        "sha": "377867346af2e39e4f4b791a5e904db06bc2c8d5",
+        "url": "https://api.github.com/repos/postazure/Lycurgus/git/trees/377867346af2e39e4f4b791a5e904db06bc2c8d5"
+      },
+      "url": "https://api.github.com/repos/postazure/Lycurgus/git/commits/c95fcd92a9b9ac60953592069aec633b9a864a6d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/postazure/Lycurgus/commits/c95fcd92a9b9ac60953592069aec633b9a864a6d",
+    "html_url": "https://github.com/postazure/Lycurgus/commit/c95fcd92a9b9ac60953592069aec633b9a864a6d",
+    "comments_url": "https://api.github.com/repos/postazure/Lycurgus/commits/c95fcd92a9b9ac60953592069aec633b9a864a6d/comments",
+    "author": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5d2dabf51a7182daed652ac3c48f93dda7f3f01d",
+        "url": "https://api.github.com/repos/postazure/Lycurgus/commits/5d2dabf51a7182daed652ac3c48f93dda7f3f01d",
+        "html_url": "https://github.com/postazure/Lycurgus/commit/5d2dabf51a7182daed652ac3c48f93dda7f3f01d"
+      }
+    ]
+  },
+  {
+    "sha": "5d2dabf51a7182daed652ac3c48f93dda7f3f01d",
+    "commit": {
+      "author": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-03T20:56:45Z"
+      },
+      "committer": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-03T20:56:45Z"
+      },
+      "message": "Can get repo content using github api\\\n\\\n[finishes #98372026]",
+      "tree": {
+        "sha": "f74d75400d26ea9153ee18bef95440275fa06824",
+        "url": "https://api.github.com/repos/postazure/Lycurgus/git/trees/f74d75400d26ea9153ee18bef95440275fa06824"
+      },
+      "url": "https://api.github.com/repos/postazure/Lycurgus/git/commits/5d2dabf51a7182daed652ac3c48f93dda7f3f01d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/postazure/Lycurgus/commits/5d2dabf51a7182daed652ac3c48f93dda7f3f01d",
+    "html_url": "https://github.com/postazure/Lycurgus/commit/5d2dabf51a7182daed652ac3c48f93dda7f3f01d",
+    "comments_url": "https://api.github.com/repos/postazure/Lycurgus/commits/5d2dabf51a7182daed652ac3c48f93dda7f3f01d/comments",
+    "author": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6f8fa9bb8cb2b88d8c502c2aff301296251eb11b",
+        "url": "https://api.github.com/repos/postazure/Lycurgus/commits/6f8fa9bb8cb2b88d8c502c2aff301296251eb11b",
+        "html_url": "https://github.com/postazure/Lycurgus/commit/6f8fa9bb8cb2b88d8c502c2aff301296251eb11b"
+      }
+    ]
+  },
+  {
+    "sha": "6f8fa9bb8cb2b88d8c502c2aff301296251eb11b",
+    "commit": {
+      "author": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-03T19:00:29Z"
+      },
+      "committer": {
+        "name": "Max Gordon",
+        "email": "gordonmaxc@gmail.com",
+        "date": "2015-07-03T19:00:29Z"
+      },
+      "message": "first commit",
+      "tree": {
+        "sha": "237eca4758795a7b6011ed06ad63536cf926922d",
+        "url": "https://api.github.com/repos/postazure/Lycurgus/git/trees/237eca4758795a7b6011ed06ad63536cf926922d"
+      },
+      "url": "https://api.github.com/repos/postazure/Lycurgus/git/commits/6f8fa9bb8cb2b88d8c502c2aff301296251eb11b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/postazure/Lycurgus/commits/6f8fa9bb8cb2b88d8c502c2aff301296251eb11b",
+    "html_url": "https://github.com/postazure/Lycurgus/commit/6f8fa9bb8cb2b88d8c502c2aff301296251eb11b",
+    "comments_url": "https://api.github.com/repos/postazure/Lycurgus/commits/6f8fa9bb8cb2b88d8c502c2aff301296251eb11b/comments",
+    "author": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "postazure",
+      "id": 7720288,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7720288?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/postazure",
+      "html_url": "https://github.com/postazure",
+      "followers_url": "https://api.github.com/users/postazure/followers",
+      "following_url": "https://api.github.com/users/postazure/following{/other_user}",
+      "gists_url": "https://api.github.com/users/postazure/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/postazure/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/postazure/subscriptions",
+      "organizations_url": "https://api.github.com/users/postazure/orgs",
+      "repos_url": "https://api.github.com/users/postazure/repos",
+      "events_url": "https://api.github.com/users/postazure/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/postazure/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": []
+  }
+]
