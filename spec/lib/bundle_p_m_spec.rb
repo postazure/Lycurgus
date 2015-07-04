@@ -31,41 +31,72 @@ describe BundlerPM do
         )
       end
     end
+  end
 
-    describe '#get_gem_info' do
-      let(:dep_array) {eval IO.read('spec/fixtures/local/parse_spec_chunk_return.txt')}
-      let(:gem_names_array) {eval IO.read('spec/fixtures/local/parse_dependencies_chunk_return.txt')}
+  describe '#get_gem_info' do
+    let(:dep_array) {[['byebug', '5.0.0']]}
+    let(:gem_names_array) {['byebug']}
+    let(:versions_response) {IO.read('spec/fixtures/rubygems/versions_response_success.txt')}
 
-      it 'returns versions for gems' do
-        allow(bundler_pm).to receive(:parse_dependencies_chunk) {gem_names_array}
-        allow(bundler_pm).to receive(:parse_spec_chunk) {dep_array}
+    before do
+      stub_request(:get, 'https://rubygems.org/api/v1/versions/byebug.json')
+          .to_return({body: versions_response})
 
-        gem_info_list = bundler_pm.send(:get_gem_info)
-
-        expect(gem_info_list).to include(['byebug', '5.0.0'])
-        expect(gem_info_list.count).to eq 12
-      end
+      allow(bundler_pm).to receive(:parse_dependencies_chunk) {gem_names_array}
+      allow(bundler_pm).to receive(:parse_spec_chunk) {dep_array}
     end
 
-    describe '#current_packages' do
-      let(:gem_details) {eval IO.read('spec/fixtures/local/get_gem_info_return.txt')}
+    it 'returns versions for gems' do
+      gem_info_list = bundler_pm.send(:get_gem_info)
 
-      before do
-        allow(bundler_pm).to receive(:get_gem_info) {gem_details}
-      end
+      expect(gem_info_list).to include({
+            name: 'byebug',
+            version: '5.0.0',
+            sha: '1e8966fc8e68eb321358ecc9b3b4799c3ee4e00844df3d5962d81c38407f987c',
+            licenses: ['BSD'],
+            source: 'https://rubygems.org/api/v1/versions/byebug.json'
+      })
+      expect(gem_info_list.count).to eq 1
+    end
+  end
 
-      it 'returns an array of package objects' do
-        current_packages = bundler_pm.current_packages
+  describe '#current_packages' do
+    let(:gem_details) {eval IO.read('spec/fixtures/local/get_gem_info_return.txt')}
 
-        expect(current_packages.count).to eq 12
-        expect(current_packages.map(&:name)).to include(
-          'byebug',
-          'coffee-rails',
-          'jbuilder',
-          'jquery-rails',
-          'pg'
-        )
-      end
+    before do
+      allow(bundler_pm).to receive(:get_gem_info) {gem_details}
+    end
+
+    it 'returns an array of package objects' do
+      current_packages = bundler_pm.current_packages
+
+      expect(current_packages.count).to eq 2
+      expect(current_packages[0].name).to eq 'byebug'
+      expect(current_packages[0].sha).to eq '1e8966fc8e68eb321358ecc9b3b4799c3ee4e00844df3d5962d81c38407f987c'
+      expect(current_packages[0].version).to eq '5.0.0'
+      expect(current_packages[0].licenses).to eq ['BSD']
+      expect(current_packages[1].name).to eq 'apple'
+      expect(current_packages[1].sha).to eq '1e89dsrc8e68eb321358ecc9b3b4799c3ee4e00844df3d5962d81c38407f987c'
+      expect(current_packages[1].version).to eq '1.0.0'
+      expect(current_packages[1].licenses).to eq ['MIT']
+    end
+  end
+
+  describe '#include_additional_info' do
+    let(:versions_response) {IO.read('spec/fixtures/rubygems/versions_response_success.txt')}
+    before do
+      stub_request(:get, 'https://rubygems.org/api/v1/versions/byebug.json')
+        .to_return({body: versions_response})
+    end
+    it 'returns a hash with sha and licenses info' do
+      add_details = bundler_pm.send(:include_additional_info, ['byebug', '5.0.0'] )
+      expect(add_details).to eq({
+                                    name: 'byebug',
+                                    version: '5.0.0',
+                                    sha: '1e8966fc8e68eb321358ecc9b3b4799c3ee4e00844df3d5962d81c38407f987c',
+                                    licenses: ['BSD'],
+                                    source: 'https://rubygems.org/api/v1/versions/byebug.json'
+                                })
     end
   end
 end

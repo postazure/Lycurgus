@@ -38,7 +38,7 @@ class Repo
 
   def get_file_url_at_sha(filename)
     commit_request_url = "#{API_ROOT}#{owner}/#{name}/commits/#{sha}"
-    commit_response = ApiClient.github(url: commit_request_url)
+    commit_response = ApiClient.process_response(url: commit_request_url)
     gemfile_lock_hash = commit_response['files'].find { |f| f['filename'] == filename }
     gemfile_lock_hash['raw_url']
   end

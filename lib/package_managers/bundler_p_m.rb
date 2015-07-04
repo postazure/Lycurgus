@@ -1,4 +1,5 @@
 require 'packages/package'
+require 'api_client'
 
 class BundlerPM
   def self.active?(repo_content)
@@ -11,10 +12,7 @@ class BundlerPM
 
   def current_packages
     get_gem_info.map do |gem_info|
-      Package.new(
-        name: gem_info[0],
-        version: gem_info[1]
-      )
+      Package.new(gem_info)
     end
   end
 
@@ -25,8 +23,10 @@ class BundlerPM
     dep_info_list = parse_spec_chunk
 
     gem_details = []
-    dep_info_list.each do |dep_info|
-      gem_details << dep_info if gem_list.include?(dep_info[0])
+    dep_info_list.each do |dep|
+      if gem_list.include?(dep[0])
+        gem_details << include_additional_info(dep)
+      end
     end
     gem_details
   end
@@ -53,6 +53,14 @@ class BundlerPM
       version = dep_info[1] ? dep_info[1].gsub('(', '').gsub(')', '') : 'No Version'
       [name, version]
     end.compact
+  end
+
+  def include_additional_info(dep_arr)
+    dep_hash = {name: dep_arr[0], version: dep_arr[1]}
+    api_url = "https://rubygems.org/api/v1/versions/#{dep_hash[:name]}.json"
+    response = ApiClient.process_response(url: api_url)
+    matched_response = response.find { |release| release['number'] == dep_hash[:version]}
+    dep_hash.merge({sha: matched_response['sha'], licenses: matched_response['licenses'], source: api_url})
   end
 
   def is_top_level(spec_line)

@@ -1,0 +1,869 @@
+[
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2015-05-18T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 232027,
+    "metadata": {},
+    "number": "5.0.0",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "1e8966fc8e68eb321358ecc9b3b4799c3ee4e00844df3d5962d81c38407f987c"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2015-04-02T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 464278,
+    "metadata": {},
+    "number": "4.0.5",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "091400e903204f0e5ebc7ca042791e82bcb08107d743f9341f7f2f244adf5402"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2015-03-27T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 67997,
+    "metadata": {},
+    "number": "4.0.4",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "76569c9e6c9d1902c3124b4d9b5217422bcd5891a8161644261730d94dabee29"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2015-03-19T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 89186,
+    "metadata": {},
+    "number": "4.0.3",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "81644cff229c26135a90478a2027d80f257685f0e9460c1fb73259b3b9329420"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2015-03-16T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 31631,
+    "metadata": {},
+    "number": "4.0.2",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "ca59f0ae7744db6cbd0df50e32323a2bea16bb8ac1ae997014f633534edc2e0a"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2015-03-13T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 32629,
+    "metadata": {},
+    "number": "4.0.1",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "3c16b653ba0b54e9f621785eba51b5a5de980b8eea5bb22f58c846aad3f547b9"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2015-03-13T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 1823,
+    "metadata": {},
+    "number": "4.0.0",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "28f32a72f27b7a0f91f20b84204ac6f6da379c74ab4aa852f4941b6d79638fb1"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-09-29T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 997720,
+    "metadata": {},
+    "number": "3.5.1",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "56358e944d1cdb83151d4400631306eb2539b5fdf1b5e784cdd984b14016ac51"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-09-28T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 4318,
+    "metadata": {},
+    "number": "3.5.0",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "d4d24df2e8a637b89ef57f54021cafb594bd923d85004e5e77143b4df4d9a91d"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-09-26T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 11299,
+    "metadata": {},
+    "number": "3.4.2",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "130be7743909a3979063944609484d87670c5bd45dae90801d36d9a6804efcbb"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-09-25T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 6040,
+    "metadata": {},
+    "number": "3.4.1",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "44186d830d117bf6662516980f0a6855403ddaf1e6763d16ead306c62f26a5ec"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-09-01T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 166005,
+    "metadata": {},
+    "number": "3.4.0",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "a6a0ee8bd016946edb9f229f4f1bb0f5f7a49ceb49866ca4bc6a420f09dcf7fc"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-08-28T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 5479,
+    "metadata": {},
+    "number": "3.3.0",
+    "summary": "Ruby 2.0 fast debugger - base + CLI",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "bc3463eebf2b7f34605075a915adf8eeb141af51d613a43dfa4991b079fbf1b1"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-08-02T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 90864,
+    "metadata": {},
+    "number": "3.2.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "6817e1741a2214b0a29de0b7f0e4031360db543e185831780553049d826a96b7"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-04-23T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 143439,
+    "metadata": {},
+    "number": "3.1.2",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "1fa5fb70658bf76daca8bac10fa63d4926341414ff75711ef55bd26201ac7ba1"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-04-23T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 763,
+    "metadata": {},
+    "number": "3.1.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "26cc37cb3bb1b281cd8c5cdda07abf034c768caa57ba2d11fb765c4dfb89bbd4"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-04-23T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 673,
+    "metadata": {},
+    "number": "3.1.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "c3c62e1cba8f3b3f1265e6ca2bfcaff196c9e9ad72171b67605a86d6914aa936"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-04-17T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 7733,
+    "metadata": {},
+    "number": "3.0.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": ">= 2.0.0",
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "328be0e264b2231490d777931f609f4e8d99364bf874dcf77240eb5bf9ad7145"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-02-24T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 501242,
+    "metadata": {},
+    "number": "2.7.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "b728ad5c72d2ff4d53e809ddf3711136c622bf621f19ad59982c032858a1f690"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2014-02-08T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 24760,
+    "metadata": {},
+    "number": "2.6.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "d9600ea419477addee4e4cdd1a9549fce8627e000d36290298a2d68f86381fa6"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-12-14T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 68668,
+    "metadata": {},
+    "number": "2.5.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "83b0fefdffbd412f5a54e087efcb93a238975f4556b6150b2cb64eaf3ba2435c"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-12-05T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 11778,
+    "metadata": {},
+    "number": "2.4.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "8a4065df837d753888e826d847bfc138fc9fec2484ba4b81d9ae6b741f74116b"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-12-02T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 7852,
+    "metadata": {},
+    "number": "2.4.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "f6acfbca4cc4a9004dae96c224c72c6da55ef10f789734758d63038d92486557"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-10-17T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2 debugger. It's implemented using the\\\n    Ruby 2 TracePoint C API for execution control and the Debug Inspector C API\\\n    for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 48800,
+    "metadata": {},
+    "number": "2.3.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "8a655412da75cc0a5231e7e14bbe45195f30b7bcf892f495827ffc4aacc661b9"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-10-09T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 5492,
+    "metadata": {},
+    "number": "2.3.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "8dd402a5aa1f657922760037c1b1a57aad434b2620e4526a1c675216605e377d"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-09-25T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 14537,
+    "metadata": {},
+    "number": "2.2.2",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "4b1ec55a37092cd2831e3115980996042718127d54fe093932ed88d59618d869"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-09-24T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 1090,
+    "metadata": {},
+    "number": "2.2.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "e6db764c13234075f944198be6df481d9da4b2771da56806fce8ffcc5d1baf0d"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-09-22T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 1465,
+    "metadata": {},
+    "number": "2.2.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "22bc3cc96db466421275aa622368f0a55cc0e8610b100e7df4cf84d567fba07c"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-09-10T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 4775,
+    "metadata": {},
+    "number": "2.1.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "6dca9cf137269bb836d11d834a12d708d8934ad256df4f09fba52960f4a717a2"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-09-08T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 1555,
+    "metadata": {},
+    "number": "2.1.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "1432e84cb09056d86dbf02699c88e077105c59cbffd2d72b01857ec2dbee1d45"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-08-30T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 9928,
+    "metadata": {},
+    "number": "2.0.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "ee5cfba44e0ec1a4a7a89d47cec2e29209f78b45e53bb0474775d78f3bbc55f9"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-08-16T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 22686,
+    "metadata": {},
+    "number": "1.8.2",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "c1f3f2547d6a344fa871afe863119db5168283a2dcdaf47efce9fd1f2c51c34d"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-08-12T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 5065,
+    "metadata": {},
+    "number": "1.8.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "ef43395f6180411a0d745624b39997c7eb32b020fd426f8bd7238c34b1d8abc9"
+  },
+  {
+    "authors": "David Rodriguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-08-12T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 1085,
+    "metadata": {},
+    "number": "1.8.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "a3e3533422a207d1f68a9fc9a38065d3a5b7e2b03d6ed4bf6c016ce47b898d72"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-08-03T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 2583,
+    "metadata": {},
+    "number": "1.7.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": [],
+    "sha": "42876b58e41cfb0a2625dd6ab00d418d25aae2dffafb00cd2f434efe67eea26a"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-07-10T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 7955,
+    "metadata": {},
+    "number": "1.6.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "4b07a9a3dfd44dd3d9f1ed1dc3ebfcf43e13c3f1260a33487e3e932b2bfaf20a"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-07-10T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 1168,
+    "metadata": {},
+    "number": "1.6.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "ee27747dccfbd55eca8b221a8cb2fac517a3ac73e48a302d8343eb49338ef7d7"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-06-21T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 4362,
+    "metadata": {},
+    "number": "1.5.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "d81ece5c8fae72cd59d42348e058cb8c7969db1a8834477794da3825578e10c0"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-06-20T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 1864,
+    "metadata": {},
+    "number": "1.4.2",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "6a1fc2827d3c22b63e19fe4f793d046d8fe0f7261332c842a41ab3f9ab11cc08"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-06-15T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 2450,
+    "metadata": {},
+    "number": "1.4.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "9d304d678e7798f4ed9e4183505ed5348813bf9b00dc9f175c5bc232b426576f"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-06-05T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API for execution control and the Debug Inspector C\\\n    API for call stack navigation.  The core component provides support that\\\n    front-ends can build on. It provides breakpoint handling and bindings for\\\n    stack frames among other things and it comes with an easy to use command\\\n    line interface.",
+    "downloads_count": 3386,
+    "metadata": {},
+    "number": "1.4.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "7455fb3f9ba1b3439614394084677e2d66abc519a7e930d567aaff7dead2ecf0"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-06-02T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.",
+    "downloads_count": 1131,
+    "metadata": {},
+    "number": "1.3.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "8dd742cbd9c496a2770f103cbd9f0f4516cb93480ba6d017636623abe52e0b56"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-05-25T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.",
+    "downloads_count": 1245,
+    "metadata": {},
+    "number": "1.3.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "7cd7c6fc0ae84f5e4416ce7a32a0fea18512a71f57f364a14b20a0aeba0de925"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-05-20T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.",
+    "downloads_count": 1077,
+    "metadata": {},
+    "number": "1.2.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "33f300c3bb6b0162e307d2a7f7e977a3e3ec92e447193e26ea94ad9bf374acc2"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-05-07T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.",
+    "downloads_count": 8665,
+    "metadata": {},
+    "number": "1.1.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "4ff75b9f3323ce74827eba0cd3d8b7abd3f3c3aa6df1ce23357744c54d454fd7"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-04-30T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.",
+    "downloads_count": 1184,
+    "metadata": {},
+    "number": "1.1.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "0d01d69d1efc039abdd1b6ef6f4979a6b092a8ca915a676d84e88ac959e00878"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-04-23T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.",
+    "downloads_count": 1163,
+    "metadata": {},
+    "number": "1.0.3",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "b7440fccd2ec060d8320e704f5f47b73973029d702cb82994e08e602b389daa7"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-04-09T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.",
+    "downloads_count": 1052,
+    "metadata": {},
+    "number": "1.0.2",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "068d029e7b456447380cd68d23f6e98c20e742714dd269a810920d38b35b179c"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-04-06T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.",
+    "downloads_count": 1063,
+    "metadata": {},
+    "number": "1.0.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "210ab2d713cdc1c5846d4a79c23aefe26fad3e098960a8a9262e65e24d7e1d83"
+  },
+  {
+    "authors": "David Rodríguez, Kent Sibilev, Mark Moseley",
+    "built_at": "2013-03-29T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.",
+    "downloads_count": 1124,
+    "metadata": {},
+    "number": "1.0.0",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "BSD"
+    ],
+    "requirements": null,
+    "sha": "68595766bb3d82b9e2a4d008cd47bae1856b7cfbb96652425efe8c338c41502d"
+  },
+  {
+    "authors": "David Rodríguez",
+    "built_at": "2013-03-18T00:00:00.000Z",
+    "description": "Byebug is a Ruby 2.0 debugger. It's implemented using the\\\n    Ruby 2.0 TracePoint C API. The C extension was forked from debase whereas\\\n    the rest of the gem was forked from debugger. The core component provides\\\n    support that front-ends can build on. It provides breakpoint handling,\\\n    bindings for stack frames among other things.\\\n",
+    "downloads_count": 1158,
+    "metadata": {},
+    "number": "0.0.1",
+    "summary": "Ruby 2.0 fast debugger - base + cli",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": null,
+    "sha": "48f893ba61b0b7f2b9e70f5167b61951edffa937cfa4970cc20069e7c3aef75a"
+  }
+]
