@@ -29,10 +29,15 @@ function SearchAdapter(){
 
     var printShaList = function($node, shas) {
         $node.empty();
-        $node.addClass('ui segment');
+        $node.addClass('ui segments');
 
-        $node.append('<div class="ui relaxed divided list" id="sha-links">');
-        $node.append('</div>');
+        $node.append(
+            '<div class="ui secondary segment">Dependency Changes</div>' +
+            '<div class="ui segment">' +
+            '<div class="ui relaxed divided list" id="sha-links"></div>'+
+            '</div>'
+        );
+
         for(var i = 0; i < shas.length; i++) {
             $('#sha-links').append(
                 '<div class="item">' +
@@ -51,20 +56,21 @@ function SearchAdapter(){
     var printDepList = function($node, deps) {
         $node.empty();
         var licenses_summary = getLicenseSummary(deps);
+        $node.append(
+            '<table class="ui celled striped table">'+
+            '<thead><tr><th colspan="4">Licenses: ' + licenses_summary.join(', ') + '</th> </tr></thead>'+
+            '<tbody id="dep-table-body"></tbody>' +
+            '</table>'
+        );
 
-        $node.append('<div class="ui segment">Licenses: <span id="license-summary">'+ licenses_summary.join(' ') +'</span></div>')
-        $node.append(deps);
-        console.log(deps);
         for(var i = 0; i < deps.length; i++) {
-            $node.append(
-                '<div class="ui segment">' +
-                '<span><i class="large diamond middle aligned icon"></i></span>'+
-                '<div class="content">' +
-                "<div class='header'>" + deps[i].name + " - " + deps[i].version + "</div>"+
-                '<div class="license-list-'+ i +'">' + deps[i].licenses + '</div>'+
-                '<pre class="description">' + deps[i].sha + '</pre>' +
-                '</div>' +
-                '</div>'
+            $('#dep-table-body').append(
+            '<tr>'+
+            '<td class="collapsing">'+ '<i class="diamond icon"></i>' + deps[i].name + '</td>'+
+            '<td>' + deps[i].licenses.join(', ') + '</td>'+
+            '<td>' + deps[i].sha + '</td>'+
+            '<td class="right aligned collapsing">' + deps[i].version + '</td>'+
+            '</tr>'
             )
         }
     };
