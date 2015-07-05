@@ -17,6 +17,7 @@ gem 'httparty'
 gem 'webmock', group: :test
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'rspec-rails'
   gem 'web-console', '~> 2.0'
   gem 'spring'

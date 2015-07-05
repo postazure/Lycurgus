@@ -4,9 +4,9 @@ RSpec.describe SearchController, type: :controller do
   let(:params) {{"utf8"=>"✓", "repo_url"=>"https://github.com/postazure/Lycurgus", "commit"=>"Discover Licenses"}}
 
   describe '#results' do
-    let(:commits_url) {'https://api.github.com/repos/postazure/Lycurgus/commits'}
+    let(:commits_url) {"https://api.github.com/repos/postazure/Lycurgus/commits?client_id=#{ENV['GITHUB_CLIENT_ID']}&client_secret=#{ENV['GITHUB_CLIENT_SECRET']}"}
     let(:commits_response) {IO.read('spec/fixtures/github/commit_history_search_response_success.txt')}
-    let(:tree_url) {'https://api.github.com/repos/postazure/Lycurgus/git/trees/418d41e06005df5e22e35873da1a4baaaa017433'}
+    let(:tree_url) {"https://api.github.com/repos/postazure/Lycurgus/git/trees/418d41e06005df5e22e35873da1a4baaaa017433?client_id=#{ENV['GITHUB_CLIENT_ID']}&client_secret=#{ENV['GITHUB_CLIENT_SECRET']}"}
     let(:tree_response) {IO.read('spec/fixtures/github/tree_search_response_success.txt')}
     let(:gemfile_lock_url) {'https://raw.githubusercontent.com/postazure/Lycurgus/master/Gemfile.lock'}
     let(:gemfile_lock_response) {IO.read('spec/fixtures/github/gemfile_lock_short_response_success.txt')}
@@ -26,7 +26,10 @@ RSpec.describe SearchController, type: :controller do
     it 'it reads the sha' do
       get :results, params
 
-      expect(WebMock).to have_requested(:get, 'https://api.github.com/repos/postazure/Lycurgus/git/trees/418d41e06005df5e22e35873da1a4baaaa017433').once
+      expect(WebMock).to have_requested(
+         :get,
+         "https://api.github.com/repos/postazure/Lycurgus/git/trees/418d41e06005df5e22e35873da1a4baaaa017433?client_id=#{ENV['GITHUB_CLIENT_ID']}&client_secret=#{ENV['GITHUB_CLIENT_SECRET']}"
+       ).once
     end
   end
 
@@ -46,7 +49,7 @@ RSpec.describe SearchController, type: :controller do
         }
     ]}
 
-    let(:commits_with_file_url) {'https://api.github.com/repos/postazure/Lycurgus/commits?path=Gemfile.lock'}
+    let(:commits_with_file_url) {"https://api.github.com/repos/postazure/Lycurgus/commits?path=Gemfile.lock&client_id=#{ENV['GITHUB_CLIENT_ID']}&client_secret=#{ENV['GITHUB_CLIENT_SECRET']}"}
     let(:commits_with_file_response) {IO.read('spec/fixtures/github/commits_with_gemfile_lock_response_success.txt')}
     before do
       stub_request(:get, commits_with_file_url).to_return({body: commits_with_file_response})
