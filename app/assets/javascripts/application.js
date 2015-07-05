@@ -29,18 +29,18 @@ function SearchAdapter(){
 
     var printShaList = function($node, shas) {
         $node.empty();
-        $node.addClass('ui segments');
+        //$node.addClass('ui segments');
 
         $node.append(
-            '<div class="ui secondary segment">Dependency Changes</div>' +
-            '<div class="ui segment">' +
-            '<div class="ui relaxed divided list" id="sha-links"></div>'+
+            '<h5 class="ui top attached tertiary header">Dependency Changes</h5>' +
+            '<div id="sha-links">' +
             '</div>'
         );
 
+
         for(var i = 0; i < shas.length; i++) {
             $('#sha-links').append(
-                '<div class="item">' +
+                '<div class="ui attached segment">' +
                 '<div class="content">' +
                 '<i class="large github middle aligned icon"></i>'+
                 "<a class='header truncate' data-sha=" + shas[i].sha + "'>" + shas[i].sha + "</a>" +
@@ -86,19 +86,28 @@ function SearchAdapter(){
         return licenses;
     };
 
+    var submitForm = function() {
+        repoUrl = $('#repo_url').val();
+
+        $.ajax({
+            url: 'commit_shas_gemfile_lock',
+            method: 'get',
+            data: {repo_url: repoUrl}
+        }).done(function(json) {
+            printShaList($('#sha-list'), json);
+        })
+    };
+
+
     this.setFormHandler = function($form) {
+        var submitBtn = $form.find('div[name="submit-form"]')[0]
+        var $submit = $(submitBtn);
+
+        $submit.on('click', submitForm);
+
         $form.submit(function(e) {
             e.preventDefault();
-
-            repoUrl = $('#repo_url').val();
-
-            $.ajax({
-                url: 'commit_shas_gemfile_lock',
-                method: 'get',
-                data: {repo_url: repoUrl}
-            }).done(function(json) {
-                printShaList($('#sha-list'), json);
-            })
+            submitForm();
         })
     };
 
