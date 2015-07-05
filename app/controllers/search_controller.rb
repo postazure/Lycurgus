@@ -29,7 +29,6 @@ class SearchController < ApplicationController
   def find_commits_with_file(filename:, owner:, repo_name:)
     url = "#{API_ROOT}/repos/#{owner}/#{repo_name}/commits?path=#{filename}"
     response = ApiClient.process_response(url: url)
-
     response.map do |commit|
       {
           sha: commit['sha'],

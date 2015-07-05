@@ -32,8 +32,14 @@
   text-align: center;
 }
 
-#sha-list {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.truncate {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: right;
+}
+
+#sha-links item {
+  padding-top: 5px;
 }

@@ -20,27 +20,28 @@ $(document).ready(function() {
     var searchAdapter = new SearchAdapter
     searchAdapter.setFormHandler($('form'))
     searchAdapter.setShaHandler($('#sha-list'))
-
-    //$('#sha-list') add delagated event list to shas => submit url and sha to controller
-    //search in tree using specified shas
 });
 
 
 
-function SearchAdapter(nodes){
+function SearchAdapter(){
     var repoUrl;
 
     var printShaList = function($node, shas) {
         $node.empty();
+        $node.addClass('ui segment');
+
         $node.append('<div class="ui relaxed divided list" id="sha-links">');
         $node.append('</div>');
         for(var i = 0; i < shas.length; i++) {
             $('#sha-links').append(
                 '<div class="item">' +
-                '<i class="large github middle aligned icon"></i>'+
                 '<div class="content">' +
-                "<a class='header' data-sha=" + shas[i].sha + "'>" + shas[i].date + " - " + shas[i].sha + "</a>" +
-                '<pre class="description">' + shas[i].message + '</pre>' +
+                '<i class="large github middle aligned icon"></i>'+
+                "<a class='header truncate' data-sha=" + shas[i].sha + "'>" + shas[i].sha + "</a>" +
+                '<div class="ui secondary segment">'+
+                '<div class="description"><pre>' + shas[i].message + '</pre></div>' +
+                '</div>' +
                 '</div>' +
                 '</div>'
             )
@@ -49,12 +50,15 @@ function SearchAdapter(nodes){
 
     var printDepList = function($node, deps) {
         $node.empty();
+        var licenses_summary = getLicenseSummary(deps);
+
+        $node.append('<div class="ui segment">Licenses: <span id="license-summary">'+ licenses_summary.join(' ') +'</span></div>')
         $node.append(deps);
         console.log(deps);
         for(var i = 0; i < deps.length; i++) {
             $node.append(
-                '<div class="item">' +
-                '<i class="large diamond middle aligned icon"></i>'+
+                '<div class="ui segment">' +
+                '<span><i class="large diamond middle aligned icon"></i></span>'+
                 '<div class="content">' +
                 "<div class='header'>" + deps[i].name + " - " + deps[i].version + "</div>"+
                 '<div class="license-list-'+ i +'">' + deps[i].licenses + '</div>'+
@@ -63,6 +67,17 @@ function SearchAdapter(nodes){
                 '</div>'
             )
         }
+    };
+
+    var getLicenseSummary = function(deps) {
+        var licenses = [];
+        for(var i = 0; i < deps.length; i++) {
+            for(var j = 0; j < deps[i].licenses.length; j++)
+            if (licenses.indexOf(deps[i].licenses[j]) === -1) {
+                licenses.push(deps[i].licenses[j]);
+            }
+        }
+        return licenses;
     };
 
     this.setFormHandler = function($form) {
