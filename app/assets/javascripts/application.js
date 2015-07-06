@@ -68,7 +68,7 @@ function SearchAdapter(){
             '<tr>'+
             '<td class="collapsing">'+ '<i class="' + getIconForSource(deps[i]) + ' icon"></i>' + deps[i].name + '</td>'+
             '<td>' + deps[i].licenses.join(', ') + '</td>'+
-            '<td>' + deps[i].sha + '</td>'+
+            '<td>' + deps[i].sha.slice(0,16) + '...</td>'+
             '<td class="right aligned collapsing">' + deps[i].version + '</td>'+
             '</tr>'
             )
@@ -104,6 +104,10 @@ function SearchAdapter(){
         })
     };
 
+    var setLoadingForDeps = function($node) {
+        $node.append('<div class="ui loading segment full-height"><p></p></div>')
+    };
+
 
     this.setFormHandler = function($form) {
         var submitBtn = $form.find('div[name="submit-form"]')[0]
@@ -120,13 +124,15 @@ function SearchAdapter(){
     this.setShaHandler = function($sha) {
         $sha.on('click', '.header', function(e){
             var sha = $(e.target).data('sha')
+            var $dep = $('#dep-list');
+            setLoadingForDeps($dep);
 
             $.ajax({
                 url: 'dependencies',
                 method: 'get',
                 data: {utf8: "✓", repo_url: repoUrl, sha: sha, commit: "Discover Licenses"}
             }).done(function(json){
-                printDepList($('#dep-list'), json);
+                printDepList($dep, json);
             })
         })
     }
