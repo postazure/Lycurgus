@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'httparty'
 gem 'webmock', group: :test
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'dotenv-rails'
