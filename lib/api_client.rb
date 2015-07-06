@@ -2,7 +2,6 @@ require 'json'
 require 'httparty'
 
 class ApiClient
-
   def self.process_response(action: :get, url:, json: true)
     url = self.apply_auth(url)
     puts "[API CLIENT] #{action} => #{url}"

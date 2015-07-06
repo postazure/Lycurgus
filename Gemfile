@@ -13,7 +13,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'httparty'
-
 gem 'webmock', group: :test
 
 group :development, :test do

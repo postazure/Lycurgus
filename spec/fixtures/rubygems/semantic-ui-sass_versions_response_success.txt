@@ -1,0 +1,801 @@
+[
+  {
+    "authors": "doabit",
+    "built_at": "2015-06-01T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 554,
+    "metadata": {},
+    "number": "1.12.3.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "4d2c9c2169b0fb581a600ad2531ffbc41962a9fb1a971b1baf2cf8b2d26259f0"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2015-03-25T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 848,
+    "metadata": {},
+    "number": "1.11.5.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "c1034dc28a2896b91e3a1a726361990e7377051dc950e913b50350da2eb629e1"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2015-03-20T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 254,
+    "metadata": {},
+    "number": "1.11.4.1",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "c2b82396da75ad9c7ec7a6133ec81e537de97798f52bed0357f09e4e8747f2f3"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2015-03-08T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 485,
+    "metadata": {},
+    "number": "1.11.4.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "37799ba4671cc3dc8b54d588d11ba439d4bcbe02dbfecf4b441dfad12427792a"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2015-01-29T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 873,
+    "metadata": {},
+    "number": "1.8.1.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "d9a3fc6e4572b73b3c9e990ed70199e4ec11f1743a64f98390f143c8b56b8fff"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2015-01-24T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 9084,
+    "metadata": {},
+    "number": "1.8.0.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "883bd0c6de39b5233cdcc28d6b7e94b71d27de8b1f1b4519b83ae6b39db622ee"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2015-01-17T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 375,
+    "metadata": {},
+    "number": "1.7.3.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "f846b7c46d6cc3c4c286da8aa23e8363c5cfb38ccc681e4d963c7041d58333c2"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2015-01-15T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 276,
+    "metadata": {},
+    "number": "1.7.0.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "8f6ecdbcc3cfae8ee3f3e3653c3a6dc00c415bb92bb586f1f80ae3eae1b07ff1"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-10-27T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 4928,
+    "metadata": {},
+    "number": "0.19.3.1",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "357bbe558cc137d09bdac7e601a1de87ce99b337a438ff9fee75e507d60cb428"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-10-12T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "downloads_count": 715,
+    "metadata": {},
+    "number": "0.19.3.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails &amp; Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "917a905b2ea24d2859acb13e4e9298b88af52d94385f7c91816b51f5b91adcc5"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-04-22T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 66832,
+    "metadata": {},
+    "number": "0.16.1.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "54a9f7c3ac28203f91e99f4f929c2851356796e3d7d2de3468ff060528db71a1"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-04-12T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 656,
+    "metadata": {},
+    "number": "0.15.5.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "a91f752a11865434735e44417a8777b005491d3f137417fa22d170bf65d1c4bb"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-04-10T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 508,
+    "metadata": {},
+    "number": "0.15.4.2",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "d9e282d1f90945fa08db4ac1038a44559be27f3f58eb5588ea27791158a6383e"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-04-05T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 546,
+    "metadata": {},
+    "number": "0.15.4.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "40891f126c3ec8cc6b503704b16635c1a430290b358ead418ec3245d07503b28"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-03-29T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 479,
+    "metadata": {},
+    "number": "0.15.2.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": ">= 0",
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "5f0be875cbda36237680449ba5878682b23b64d6e352913bdf8d577d34212b61"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-03-15T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 909,
+    "metadata": {},
+    "number": "0.15.1.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "23f9c56ac90271f48c34023bb84b5dfeb964818e0483c396b9689089b1231849"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-03-04T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 645,
+    "metadata": {},
+    "number": "0.14.0.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "dd25d85bd01e2c7384e099bf5cc62216bfa1bbba54faf5632013dfab8068f977"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-02-28T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 507,
+    "metadata": {},
+    "number": "0.13.1.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "2ebb1066048e0a19caca6708ca5a3350496727daf77a95435b2f009928ec9d39"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-02-21T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 678,
+    "metadata": {},
+    "number": "0.13.0.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "c8f3e9947deed86240bc000f533d90c837e803e971d941e6fd13ef4859a7b099"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-02-15T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 665,
+    "metadata": {},
+    "number": "0.12.5.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "aa6e007e3ffd236923da890e7a46f59474d7bba9a914a0feba55b3e6c74fdaac"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-02-06T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 637,
+    "metadata": {},
+    "number": "0.12.4.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "418b29965073bc9c82f4c378eb1ba555d403931986c1d01786f6131f271058a8"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-01-25T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 817,
+    "metadata": {},
+    "number": "0.12.3.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "226785c767a5ab347202b3f9c4617a2a3643767626e790a03fdaf01200933578"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-01-21T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 562,
+    "metadata": {},
+    "number": "0.12.2.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "d4418c56ce22cc43865c15384dedc647a3c253af6d74daca5abb0d044e469a70"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-01-16T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 608,
+    "metadata": {},
+    "number": "0.12.1.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "c39512dd9090cfde088ad0443ed531478b3c5e01678ff18510d27218c80a672e"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2014-01-07T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 643,
+    "metadata": {},
+    "number": "0.12.0.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "dea09f1c81602822bd047883da9a0b9198c9a74630581cc3182a6ab812c281e2"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-12-26T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 651,
+    "metadata": {},
+    "number": "0.11.0.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "7237418742c479ee133f3789babdaff8b29a4fbe6242d2181ae5149cc3609194"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-12-22T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 575,
+    "metadata": {},
+    "number": "0.10.3.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "f078d623eebe04739433684e54d3743d292b3ed201a52996b67f4e481b58b1b6"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-12-13T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 607,
+    "metadata": {},
+    "number": "0.10.2.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "ae2bf70ae6bd5c8550000079797c8b6746d4ba177e6ba1914a1f3f25c1e3a0d8"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-12-05T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 718,
+    "metadata": {},
+    "number": "0.10.1.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "bdf18c27bf617b0d96d7023cded3c116f306d75e27588bdd9a4e0f4168bbacc5"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-12-05T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 523,
+    "metadata": {},
+    "number": "0.10.0.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "3de02b7e9b1171fae21aecb87c22effb02607513992205dde068b57ffbfc1712"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-12-04T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 543,
+    "metadata": {},
+    "number": "0.9.6.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "d85807977854a3ec267f6a5ee219574d9a22f16db2964d2fbac0b013d40a44d6"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-11-25T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 653,
+    "metadata": {},
+    "number": "0.9.5.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "f309f3587c6d57a4b72b5422a70441c2f9d7143936fbd89ec0bb397fdf1adbe6"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-11-24T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 566,
+    "metadata": {},
+    "number": "0.9.4.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "c6213e52d1de56a1e96a1fcb731c29d2036346542885b08ccc1ab190e077e49c"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-11-17T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 656,
+    "metadata": {},
+    "number": "0.9.3.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "9b02b41fead8ad2650f49dfd638c4d2dae49118903fc487253040272538700d1"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-11-09T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 633,
+    "metadata": {},
+    "number": "0.9.2.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "44ea345a68ee41d01a4ac7a355150832fc7238e6827b532d5e19e6b2db07502c"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-11-08T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "downloads_count": 600,
+    "metadata": {},
+    "number": "0.9.1.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails & Compass.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "aca95be7433a2aeb7aee44b59574c7bff3a418b638eb444f664dad3e3e6cd275"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-11-06T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 609,
+    "metadata": {},
+    "number": "0.9.0.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "3d837e69521c664a33ef621eb1ab5c821bf26de4fdbd77038737f6093a4773c1"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-11-02T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 596,
+    "metadata": {},
+    "number": "0.8.6.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "da6607b86a27af2e337ef570a07d471125e4b8a2378887a27b51ea6a16779872"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-11-02T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 578,
+    "metadata": {},
+    "number": "0.8.5.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "7fb71ee2ca89cb6985b12b4c991464c7cf5c6ca45083a067833717b41ecb08c5"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-11-02T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 576,
+    "metadata": {},
+    "number": "0.8.4.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "7c14bb25b56b34283bed2f647d7c5eeaaaf996e439f7dd40ecdce1f613ebdf7d"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-10-30T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 583,
+    "metadata": {},
+    "number": "0.8.3.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "b127199b8c563b6772b79896fbc4cba274c53a387f3d202aba52773d3fbea7ee"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-10-29T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 597,
+    "metadata": {},
+    "number": "0.8.2.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "6f6c01935ad432ccc3dc92b20f0a1436281b8ea11fa2427c03f18901521b9d1d"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-10-26T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 591,
+    "metadata": {},
+    "number": "0.8.1.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "5011a053e0a280e2d52a889643167320ba5daa94f685ea01915a9b484ba60888"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-10-26T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 575,
+    "metadata": {},
+    "number": "0.8.0.0",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "d74dc431401a308f6ca66fbb44c0f21c043a6430875de6e1ad02c5cb13b11071"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-10-14T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 694,
+    "metadata": {},
+    "number": "0.0.3",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "67fd02f307e846b9df5c398b2027e0a386de6f85093734a13b559038820a74f8"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-10-10T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 597,
+    "metadata": {},
+    "number": "0.0.2",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "702d7e8e55ef82cf3f13f10ca912e9b66e0c246d1f23e86d441e5131e980a30b"
+  },
+  {
+    "authors": "doabit",
+    "built_at": "2013-10-09T00:00:00.000Z",
+    "description": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "downloads_count": 618,
+    "metadata": {},
+    "number": "0.0.1",
+    "summary": "Semantic UI, converted to Sass and ready to drop into Rails.",
+    "platform": "ruby",
+    "ruby_version": null,
+    "prerelease": false,
+    "licenses": [
+      "MIT"
+    ],
+    "requirements": [],
+    "sha": "1c6623e9fbfa4c5aff4f8423b8d3d93af92380cf96c375c23fff5419eb8196e2"
+  }
+]

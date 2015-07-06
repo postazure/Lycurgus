@@ -9,13 +9,30 @@ RSpec.describe SearchController, type: :controller do
     let(:tree_url) {"https://api.github.com/repos/postazure/Lycurgus/git/trees/418d41e06005df5e22e35873da1a4baaaa017433?client_id=#{ENV['GITHUB_CLIENT_ID']}&client_secret=#{ENV['GITHUB_CLIENT_SECRET']}"}
     let(:tree_response) {IO.read('spec/fixtures/github/tree_search_response_success.txt')}
     let(:gemfile_lock_url) {'https://raw.githubusercontent.com/postazure/Lycurgus/master/Gemfile.lock'}
-    let(:gemfile_lock_response) {IO.read('spec/fixtures/github/gemfile_lock_short_response_success.txt')}
+    let(:gemfile_lock_response) {IO.read('spec/fixtures/github/gemfile_lock_complex_multi_response_success.txt')}
     let(:rubygems_url1) {'https://rubygems.org/api/v1/versions/byebug.json'}
     let(:rubygems_response1) {IO.read('spec/fixtures/rubygems/byebug_versions_response_success.txt')}
     let(:rubygems_url2) {'https://rubygems.org/api/v1/versions/coffee-rails.json'}
     let(:rubygems_response2) {IO.read('spec/fixtures/rubygems/coffee-rails_versions_response_success.txt')}
 
+    let(:ordered_requests) {[
+        'https://rubygems.org/api/v1/versions/semantic-ui-sass.json',
+        'https://rubygems.org/api/v1/versions/twitter-bootstrap-rails.json',
+        'https://rubygems.org/api/v1/versions/actionmailer.json',
+        'https://rubygems.org/api/v1/versions/actionpack.json'
+    ]}
+    let(:ordered_responses) {[
+        IO.read('spec/fixtures/rubygems/semantic-ui-sass_versions_response_success.txt'),
+        IO.read('spec/fixtures/rubygems/twitter-bootstrap-rails_versions_response_success.txt'),
+        IO.read('spec/fixtures/rubygems/actionmailer_versions_response_success.txt'),
+        IO.read('spec/fixtures/rubygems/actionpack_versions_response_success.txt')
+    ]}
+
     before do
+      ordered_requests.each_with_index do |request, i|
+        stub_request(:get, request).to_return({body: ordered_responses[i]})
+      end
+
       stub_request(:get, commits_url).to_return(body: commits_response)
       stub_request(:get, tree_url).to_return(body: tree_response)
       stub_request(:get, gemfile_lock_url).to_return(body: gemfile_lock_response)

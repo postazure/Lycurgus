@@ -66,13 +66,18 @@ function SearchAdapter(){
         for(var i = 0; i < deps.length; i++) {
             $('#dep-table-body').append(
             '<tr>'+
-            '<td class="collapsing">'+ '<i class="diamond icon"></i>' + deps[i].name + '</td>'+
+            '<td class="collapsing">'+ '<i class="' + getIconForSource(deps[i]) + ' icon"></i>' + deps[i].name + '</td>'+
             '<td>' + deps[i].licenses.join(', ') + '</td>'+
             '<td>' + deps[i].sha + '</td>'+
             '<td class="right aligned collapsing">' + deps[i].version + '</td>'+
             '</tr>'
             )
         }
+    };
+
+    var getIconForSource = function(dep) {
+        if (dep.source == 'GIT') {return 'git'}
+        if (dep.source == 'GEM') {return 'diamond'}
     };
 
     var getLicenseSummary = function(deps) {
@@ -94,6 +99,7 @@ function SearchAdapter(){
             method: 'get',
             data: {repo_url: repoUrl}
         }).done(function(json) {
+            console.log(json);
             printShaList($('#sha-list'), json);
         })
     };

@@ -4,7 +4,11 @@ require 'packages/package'
 describe Package do
   let(:package) {Package.new(
     name: 'my-gem',
-    version: '1.0.0'
+    version: '1.0.0',
+    licenses: ['MIT'],
+    sha: 'sadasdsa21211',
+    source: 'GIT',
+    notices: [{version: 'Blah'}]
   )}
 
   describe '#initialize' do

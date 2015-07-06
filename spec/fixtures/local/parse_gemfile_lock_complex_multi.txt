@@ -1,0 +1,41 @@
+[
+    {
+        source: 'GIT',
+        remote: 'git://github.com/doabit/semantic-ui-sass.git',
+        sha: 'be4cb632ada01e484a0b17d1399c80cbafaa9a9f',
+        deps: [
+            {
+                name: 'semantic-ui-sass',
+                version: '1.12.3.0'
+            }
+        ]
+    },
+    {
+        source: 'GIT',
+        remote: 'git://github.com/seyhunak/twitter-bootstrap-rails.git',
+        sha: '935f53bb55ef736260fa2ef04e29da2fc3fb2b3f',
+        deps: [
+            {
+                name: 'twitter-bootstrap-rails',
+                version: '3.2.1'
+            }
+        ],
+    },
+    {
+        source: 'GEM',
+        remote: 'https://rubygems.org/',
+        sha: nil,
+        deps: [
+            {
+                name: 'actionmailer',
+                version: '4.2.2'
+            },
+            {
+                name: 'actionpack',
+                version: '4.2.2'
+            }
+
+        ]
+
+    }
+]
