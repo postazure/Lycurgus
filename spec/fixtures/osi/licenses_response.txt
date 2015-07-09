@@ -1,0 +1,513 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+    <head profile="http://www.w3.org/1999/xhtml/vocab">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="shortcut icon" href="http://opensource.org/files/garland_favicon.png" type="image/png" />
+        <link rel="shortlink" href="/node/22" />
+        <link rel="canonical" href="/licenses/alphabetical" />
+        <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+        <title>Licenses by Name | Open Source Initiative</title>
+        <link type="text/css" rel="stylesheet" href="http://opensource.org/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+        <link type="text/css" rel="stylesheet" href="http://opensource.org/files/css/css_iABekW8OXxt1yff1_vg0sDV7lt8KP5iiCy47vQtDcDM.css" media="all" />
+        <link type="text/css" rel="stylesheet" href="http://opensource.org/files/css/css_2wI77kyP-rJKVpFW5M3KFcj7Cb99lZalmubKIwWwsmU.css" media="all" />
+        <link type="text/css" rel="stylesheet" href="http://opensource.org/files/css/css_k3snrbsthqot7V7ccRZHS9OkCZkwBv4adtNieIVlbEU.css" media="print" />
+        <!--[if lt IE 7]>
+        <link type="text/css" rel="stylesheet" href="http://opensource.org/themes/garland/fix-ie.css?nr4lp8" media="all" />
+        <![endif]-->
+        <script type="text/javascript" src="http://opensource.org/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+        <script type="text/javascript">
+            <!--//-->
+            <![CDATA[//>
+            <!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"garland","theme_token":"WxB0PfXrUIcCGCtGLeptOnHgZ1etGoL9c5Fv9O2cck4","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/garland\/style.css":1,"themes\/garland\/print.css":1,"themes\/garland\/fix-ie.css":1}}});
+//-->
+            <!]]>
+        </script>
+    </head>
+    <body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-22 node-type-page fluid-width" >
+        <div id="skip-link">
+            <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+        </div>
+        <div id="wrapper">
+            <div id="container" class="clearfix">
+                <div id="header">
+                    <div id="logo-floater">
+                        <div id="branding">
+                            <strong>
+                                <a href="/">
+                                    <img src="http://opensource.org/files/garland_logo.png" alt="Open Source Initiative " title="Open Source Initiative " id="logo" />
+                                    <span>Open Source Initiative</span>
+                                </a>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <!-- /#header -->
+                <div id="sidebar-first" class="sidebar">
+                    <div class="region region-sidebar-first">
+                        <div id="block-search-form" class="block block-search clearfix">
+                            <h2 class="title">Search this site:</h2>
+                            <div class="content">
+                                <form action="/licenses/alphabetical" method="post" id="search-block-form" accept-charset="UTF-8">
+                                    <div>
+                                        <div class="container-inline">
+                                            <div class="form-item form-type-textfield form-item-search-block-form">
+                                                <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+                                                <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+                                            </div>
+                                            <div class="form-actions form-wrapper" id="edit-actions">
+                                                <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" />
+                                            </div>
+                                            <input type="hidden" name="form_build_id" value="form-zjH8lpORwoDhZ6ls3E2GMhlgJevZPbVB7qRB4BbtNK8" />
+                                            <input type="hidden" name="form_id" value="search_block_form" />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="block-system-navigation" class="block block-system block-menu clearfix">
+                            <h2 class="title">Navigation</h2>
+                            <div class="content">
+                                <ul class="menu">
+                                    <li class="first collapsed">
+                                        <a href="/about" title="About the Open Source Initiative">About the OSI</a>
+                                    </li>
+                                    <li class="expanded active-trail">
+                                        <a href="/licenses" class="active-trail">Licenses &amp; Standards</a>
+                                        <ul class="menu">
+                                            <li class="first collapsed">
+                                                <a href="/osd" title="The actual OSD defining what constitutes an Open Source licence">The Open Source Definition</a>
+                                            </li>
+                                            <li class="leaf">
+                                                <a href="/licenses/category" title="Licenses by Category">Licenses by Category</a>
+                                            </li>
+                                            <li class="last leaf active-trail">
+                                                <a href="/licenses/alphabetical" title="Licenses that are approved by the OSI as conforming to the OSD" class="active-trail active">Licenses by Name</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="leaf">
+                                        <a href="/working_groups">Working Groups</a>
+                                    </li>
+                                    <li class="leaf">
+                                        <a href="/faq" title="Frequently Asked Questions about open source and about the OSI.">FAQ</a>
+                                    </li>
+                                    <li class="collapsed">
+                                        <a href="/trademark" title="Information about trademark and logo usage">Trademark and Logo Usage</a>
+                                    </li>
+                                    <li class="collapsed">
+                                        <a href="/osr-intro" title="Open Standards Requirement for Software">Open Standards</a>
+                                    </li>
+                                    <li class="leaf">
+                                        <a href="/osi-open-source-education" title="OSI&#039;s Open Source Education Initiative and Activities">Open Source Education</a>
+                                    </li>
+                                    <li class="collapsed">
+                                        <a href="/lists" title="The virtual committees where the OSI&#039;s work gets done">Mailing lists</a>
+                                    </li>
+                                    <li class="collapsed">
+                                        <a href="/help" title="Resources for questions and further exploration">Getting Help</a>
+                                    </li>
+                                    <li class="collapsed">
+                                        <a href="http://opensource.org/donate" title="">Donate to the OSI</a>
+                                    </li>
+                                    <li class="leaf">
+                                        <a href="/members">OSI Individual Membership</a>
+                                    </li>
+                                    <li class="leaf">
+                                        <a href="/store">OSI Store</a>
+                                    </li>
+                                    <li class="collapsed">
+                                        <a href="/affiliates" title="Home page for OSI&#039;s membership scheme for non-profits and not-for-profits">OSI Affiliate Membership</a>
+                                    </li>
+                                    <li class="leaf">
+                                        <a href="/contact" title="">Contact OSI</a>
+                                    </li>
+                                    <li class="leaf">
+                                        <a href="/ToS" title="Rules for posting content on this site">Terms of Service</a>
+                                    </li>
+                                    <li class="last leaf">
+                                        <a href="/sponsors">Sponsors &amp; Support</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="center">
+                    <div id="squeeze">
+                        <div class="right-corner">
+                            <div class="left-corner">
+                                <h2 class="element-invisible">You are here</h2>
+                                <div class="breadcrumb">
+                                    <a href="/">Home</a> ›
+                                    <a href="/licenses" class="active-trail">Licenses &amp; Standards</a>
+                                </div>
+                                <a id="main-content"></a>
+                                <div id="tabs-wrapper" class="clearfix">
+                                    <h1 class="with-tabs">Licenses by Name</h1>
+                                </div>
+                                <div class="clearfix">
+                                    <div class="region region-content">
+                                        <div id="block-system-main" class="block block-system clearfix">
+                                            <div class="content">
+                                                <div id="node-22" class="node node-page">
+                                                    <div class="content clearfix">
+                                                        <img style="float: right; margin: 1em;" width="100" height="137" alt="[OSI Approved License]" src="/trademarks/opensource/OSI-Appro
+ved-License-100x137.png"/>
+                                                        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                                            <div class="field-items">
+                                                                <div class="field-item even">
+                                                                    <p>The following licenses have been approved by the OSI via the
+                                                                        <a href="/approval">License Review Process</a>.  (For questions about the Public Domain, please
+                                                                        <a href="/faq#public-domain">see here</a>.)
+                                                                    </p>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="/licenses/AFL-3.0">Academic Free License 3.0 (AFL-3.0)</a>
+                                                                        </li>
+                                                                        <li>Affero GNU Public License: See
+                                                                            <em>"
+                                                                                <a href="/licenses/AGPL-3.0">GNU Affero General Public License 3.0 (AGPL-3.0)</a>"
+                                                                            </em>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/APL-1.0">Adaptive Public License (APL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Apache-2.0">Apache License 2.0 (Apache-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/APSL-2.0">Apple Public Source License (APSL-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Artistic-2.0">Artistic license 2.0 (Artistic-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/AAL">Attribution Assurance Licenses (AAL)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/BSD-3-Clause">BSD 3-Clause "New" or "Revised" License (BSD-3-Clause)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/BSD-2-Clause">BSD 2-Clause "Simplified" or "FreeBSD" License (BSD-2-Clause)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/BSL-1.0">Boost Software License (BSL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/CECILL-2.1">CeCILL License 2.1 (CECILL-2.1)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/CATOSL-1.1">Computer Associates Trusted Open Source License 1.1 (CATOSL-1.1)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/CDDL-1.0">Common Development and Distribution License 1.0 (CDDL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/CPAL-1.0">Common Public Attribution License 1.0 (CPAL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/CUA-OPL-1.0">CUA Office Public License Version 1.0 (CUA-OPL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/EUDatagrid">EU DataGrid Software License (EUDatagrid)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/EPL-1.0">Eclipse Public License 1.0 (EPL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/ECL-2.0">Educational Community License, Version 2.0 (ECL-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/EFL-2.0">Eiffel Forum License V2.0 (EFL-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Entessa">Entessa Public License (Entessa)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/EUPL-1.1">European Union Public License, Version 1.1 (EUPL-1.1)</a>
+                                                                            <em>(links to every language's version on their site)</em>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Fair">Fair License (Fair)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Frameworx-1.0">Frameworx License (Frameworx-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/AGPL-3.0">GNU Affero General Public License v3 (AGPL-3.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/GPL-2.0">GNU General Public License version 2.0 (GPL-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/GPL-3.0">GNU General Public License version 3.0 (GPL-3.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/LGPL-2.1">GNU Library or "Lesser" General Public License version 2.1 (LGPL-2.1)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/LGPL-3.0">GNU Library or "Lesser" General Public License version 3.0 (LGPL-3.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/HPND">Historical Permission Notice and Disclaimer (HPND)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/IPL-1.0">IBM Public License 1.0 (IPL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/IPA">IPA Font License (IPA)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/ISC">ISC License (ISC)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/LPPL-1.3c">LaTeX Project Public License 1.3c (LPPL-1.3c)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/LPL-1.02">Lucent Public License Version 1.02 (LPL-1.02)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/MirOS">MirOS Licence (MirOS)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/MS-PL">Microsoft Public License (MS-PL)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/MS-RL">Microsoft Reciprocal License (MS-RL)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/MIT">MIT license (MIT)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Motosoto">Motosoto License (Motosoto)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/MPL-2.0">Mozilla Public License 2.0 (MPL-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Multics">Multics License (Multics)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/NASA-1.3">NASA Open Source Agreement 1.3 (NASA-1.3)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/NTP">NTP License (NTP)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Naumen">Naumen Public License (Naumen)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/NGPL">Nethack General Public License (NGPL)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Nokia">Nokia Open Source License (Nokia)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/NPOSL-3.0">Non-Profit Open Software License 3.0 (NPOSL-3.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/OCLC-2.0">OCLC Research Public License 2.0 (OCLC-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/OFL-1.1">Open Font License 1.1 (OFL-1.1)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/OGTSL">Open Group Test Suite License (OGTSL)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/OSL-3.0">Open Software License 3.0 (OSL-3.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/PHP-3.0">PHP License 3.0 (PHP-3.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/PostgreSQL">The PostgreSQL License (PostgreSQL)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Python-2.0">Python License (Python-2.0)</a> (overall Python license)
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/CNRI-Python">CNRI Python license (CNRI-Python)</a> (CNRI portion of Python License)
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/QPL-1.0">Q Public License (QPL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/RPSL-1.0">RealNetworks Public Source License V1.0 (RPSL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/RPL-1.5">Reciprocal Public License 1.5 (RPL-1.5)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/RSCPL">Ricoh Source Code Public License (RSCPL)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/SimPL-2.0">Simple Public License 2.0 (SimPL-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Sleepycat">Sleepycat License (Sleepycat)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/SPL-1.0">Sun Public License 1.0 (SPL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Watcom-1.0">Sybase Open Watcom Public License 1.0 (Watcom-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/NCSA">University of Illinois/NCSA Open Source License (NCSA)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/UPL">Universal Permissive License (UPL)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/VSL-1.0">Vovida Software License v. 1.0 (VSL-1.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/W3C">W3C License (W3C)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/WXwindows">wxWindows Library License (WXwindows)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Xnet">X.Net License (Xnet)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/ZPL-2.0">Zope Public License 2.0 (ZPL-2.0)</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="/licenses/Zlib">zlib/libpng license (Zlib)</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                    <p>    You can also view a list of open source licenses
+                                                                        <a href="/licenses/category">grouped by category</a>, and licenses which have been
+                                                                        <a href="/licenses/do-not-use">superseded or retired</a>.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix">
+                                                        <div class="links"></div>
+                                                        <div id="comments" class="comment-wrapper">
+                                                            <h2 class="title">Comments</h2>
+                                                            <a id="comment-633"></a>
+                                                            <div class="comment odd">
+                                                                <div class="clearfix">
+                                                                    <span class="submitted">Tue, 2008-07-29 13:28 —
+                                                                        <span class="username">administrator</span>
+                                                                    </span>
+                                                                    <h3>
+                                                                        <a href="/comment/633#comment-633" class="permalink" rel="bookmark">OSS List Names (Java, Eclipse, PHP, etc)</a>
+                                                                    </h3>
+                                                                    <div class="content">
+                                                                        <div class="field field-name-comment-body field-type-text-long field-label-hidden">
+                                                                            <div class="field-items">
+                                                                                <div class="field-item even">Looking for the list of unique Open Source Software names (like Java, Eclipse, PHP, MySQL), not Open Source Software License Types(like Sun Public License, Common Public License, etc). Does OSI maintain such list or is there another organization or web source that maintains such list of actual Open Source Software names?</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="indented">
+                                                                <a id="comment-1105"></a>
+                                                                <div class="comment even">
+                                                                    <div class="clearfix">
+                                                                        <span class="submitted">Fri, 2009-07-17 12:48 —
+                                                                            <span class="username">nelson</span>
+                                                                        </span>
+                                                                        <h3>
+                                                                            <a href="/comment/1105#comment-1105" class="permalink" rel="bookmark">Probably best to search on</a>
+                                                                        </h3>
+                                                                        <div class="content">
+                                                                            <div class="field field-name-comment-body field-type-text-long field-label-hidden">
+                                                                                <div class="field-items">
+                                                                                    <div class="field-item even">Probably best to search on freshmeat.net or just google for the name you want to use.</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="region region-footer">
+                                    <div id="block-block-11" class="block block-block clearfix">
+                                        <div class="content">
+                                            <p style="text-align:center">Help shape the future of the Open Source Initiative...
+                                                <br />
+                                                <a href="http://osi.xwiki.com">visit and participate in the OSI wiki</a>.
+
+                                            </p>
+                                            <div>
+                                                <p>
+                                                    <a href="https://plus.google.com/+opensourceinitiative" rel="publisher">Google+</a>
+                                                </p>
+                                                <a href="https://twitter.com/OpenSourceOrg" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @OpenSourceOrg</a>
+                                                <script>
+                                                    <!--//-->
+                                                    <![CDATA[// >
+                                                    <!--
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+//-->
+                                                    <!]]>
+                                                </script>
+                                            </div>
+                                            <p>
+                                                <!-- Creative Commons License -->
+                                                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                                                    <img alt="Creative Commons License" style="border-width: 0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" />
+                                                </a>
+                                                <br />Opensource.org site content is licensed under a
+                                                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+                                                <!-- /Creative Commons License -->
+                                                <!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"><Work rdf:about=""><license rdf:resource="http://creativecommons.org/licenses/by/3.0/" /></Work><License rdf:about="http://creativecommons.org/licenses/by/3.0/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/></License></rdf:RDF>
+-->
+
+|
+                                                <a href="../ToS">Terms of Service</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="block-block-7" class="block block-block clearfix">
+                                        <div class="content">
+                                            <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+                                                <!--//-->
+                                                <![CDATA[// >
+                                                <!--
+
+
+//-->
+                                                <!]]>
+                                            </script>
+                                            <script type="text/javascript">
+                                                <!--//-->
+                                                <![CDATA[// >
+                                                <!--
+
+_uacct = "UA-3916956-1";
+urchinTracker();
+
+//-->
+                                                <!]]>
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+            </div>
+            <!-- /#container -->
+        </div>
+        <!-- /#wrapper -->
+    </body>
+</html>

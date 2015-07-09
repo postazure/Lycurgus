@@ -2,9 +2,9 @@ require 'json'
 require 'httparty'
 
 class ApiClient
-  def self.process_response(action: :get, url:, json: true)
+  def self.process_response(action: :get, url:, json: true, debug:false)
     url = self.apply_auth(url)
-    puts "[API CLIENT] #{action} => #{url}"
+    puts "[API CLIENT] #{action} => #{url}" if debug
     response = HTTParty.send(action, url)
     json ? JSON.parse(response.body) : response.to_s
   end

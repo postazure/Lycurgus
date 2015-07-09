@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'search#new'
   get 'dependencies' => 'search#results'
   get 'commit_shas_gemfile_lock' => 'search#commit_shas_gemfile_lock'
+  get 'license_defs' => 'search#license_defs'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

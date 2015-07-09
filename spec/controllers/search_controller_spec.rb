@@ -80,4 +80,22 @@ RSpec.describe SearchController, type: :controller do
       expect(body).to eq shas
     end
   end
+
+  describe '#license_defs' do
+    let(:open_source_licenses_response) { IO.read('spec/fixtures/osi/licenses_response.txt') }
+    let(:osi_url) { 'opensource.org/licenses/alphabetical' }
+
+    before do
+      stub_request(:get, osi_url).to_return({body: open_source_licenses_response})
+    end
+
+    it 'gets licenses from open source licenses' do
+      get :license_defs
+
+      body = JSON.parse(response.body)
+      expect( body.map{|l| l['name']}   ).to include('Academic Free License 3.0', 'Mozilla Public License 2.0', 'Zope Public License 2.0')
+      expect( body.map{|l| l['short']}  ).to include('MIT', 'Apache-2.0', 'W3C')
+      expect( body.map{|l| l['url']}    ).to include('http://opensource.org/licenses/APSL-2.0', 'http://opensource.org/licenses/OGTSL', 'http://opensource.org/licenses/Sleepycat')
+    end
+  end
 end

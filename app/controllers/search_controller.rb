@@ -2,6 +2,9 @@ require 'api_client'
 require 'repo'
 
 class SearchController < ApplicationController
+  include SearchHelper
+
+  LICENSE_ROOT = 'http://opensource.org'
   API_ROOT = 'https://api.github.com'
 
   def new
@@ -24,28 +27,9 @@ class SearchController < ApplicationController
     render json: commits
   end
 
-  private
-
-  def find_commits_with_file(filename:, owner:, repo_name:)
-    url = "#{API_ROOT}/repos/#{owner}/#{repo_name}/commits?path=#{filename}"
-    response = ApiClient.process_response(url: url)
-    response.map do |commit|
-      {
-          sha: commit['sha'],
-          date: commit['commit']['committer']['date'],
-          message: commit['commit']['message'],
-          url: commit['commit']['url']
-      }
-    end
-  end
-
-  def current_sha(owner, repo_name)
-    ApiClient.process_response(url: "#{API_ROOT}/repos/#{owner}/#{repo_name}/commits" )[0]['sha']
-  end
-
-  def repo_details(params)
-    repo_url = params[:repo_url].split('/')
-    { owner: repo_url[-2], repo_name: repo_url[-1] }
+  def license_defs
+    licenses = HTTParty.get(LICENSE_ROOT + '/licenses/alphabetical')
+    render json: licenses_to_json(licenses)
   end
 end
 
