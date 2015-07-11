@@ -15,7 +15,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'httparty'
 gem 'nokogiri'
-gem 'webmock', group: :test
 gem 'rails_12factor', group: :production
 
 group :development, :test do
@@ -25,3 +24,8 @@ group :development, :test do
   gem 'spring'
 end
 
+
+group :test do
+  gem 'webmock'
+  gem 'codeclimate-test-reporter', require: nil
+end
